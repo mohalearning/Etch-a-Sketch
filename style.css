@@ -1,19 +1,45 @@
-#box{
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    display: flex;
+    justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-button{
-    width: 50px;
-    height: 25px;
+h1 {
+    text-align: center;
+    border: 10px solid lightblue;
+    font-family: monospace;
+    background-color: lightblue;
+}
+
+button {
+    width: 80px;
+    height: 50px;
     background: lightblue;
     border: none;
     border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 200;
 }
 
-#buttons{
+#buttons {
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#container{
+    border: 10px solid lightskyblue;;
+    border-radius: 5px;
 }
